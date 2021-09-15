@@ -33,29 +33,12 @@ nav a:hover{
 nav a:active{
 	color: #32a834;
 }
-#link{
-	color: orange;
-}
-#link:hover{
-	color: red;}
-#link:active{
-	color:skyblue;}
+
 #education{
 
 color: blue;
 }
-footer{
-	color: lightpink;
-	margin: 50px;
-	padding: 50px;
-	text-align: center;
 
-}
-footer a:hover{
-	color: greenyellow;
-}
-footer a:active{
-	color: skyblue;
 }
 #flex{
 	display: flex;
