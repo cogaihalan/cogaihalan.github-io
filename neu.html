@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hoàng Tài"/>
+	<meta name="description" content="first web"/>
+	<link rel="stylesheet" href="./css/neu.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">					
+	<link rel="stylesheet" href="iconic/themify-icons-font/themify-icons/themify-icons.css">
+    <title>NEU</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-item">
+                <div class="top-nav">
+                    <a>hỗ trợ -covid 19</a>               
+                    <a>hđ giáo sư</a>               
+                    <a>dịch vụ công</a>               
+                    <a>e-learning</a>               
+                    <a>e-office</a>               
+                    <a>thông tin nội bộ</a>               
+                    <a>sitemap</a>                
+                    <a>email</a>
+                    <div style="position: relative;"><input type="text" placeholder="Tìm kiếm ...." /><span class="login-search ti-search" ></span></div>
+                    <img style="padding: 4px 0;" src="./neu.photo/English.png" alt="International"/>               
+                </div>  
+            </div>
+            <div class="header-item">
+                <div class="slider">
+                    <div class="slider-item">
+                        <a><img src="./neu.photo/banner_65_NAM_2021.png"/></a>
+                    </div>
+                    <div  class="slider-item">
+                        <a><img style='height: 192px;'id="slide-image" src="./neu.photo/a5.jpg"></a>
+                    </div>
+            </div>
+            <div class="header-item">  
+                <div class="bottom-nav">
+                   <a>GIỚI THIỆU</a>
+                   <a>ĐƠN VỊ</a>
+                   <a>ĐÀO TẠO</a>
+                   <a>HỢP TÁC QUỐC TẾ</a>
+                   <a>NGHIÊN CỨU KHOA HỌC</a>
+                   <a>TUYỂN SINH</a>
+                   <a>DỊCH VỤ</a>
+                   <a>ĐẢNG - ĐOÀN THỂ</a>
+                   <a>THÔNG BÁO - TIN TỨC</a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <script>
+            const slideShow=document.getElementById('slide-image');
+            var index=0;
+            function slide(){
+                let images=[
+                    './neu.photo/a5.jpg',
+                    './neu.photo/a1.jpg',
+                    './neu.photo/a2.jpg',
+                    './neu.photo/a4.jpg',
+                    './neu.photo/a6.jpg',
+                    './neu.photo/a7.jpg',
+                    './neu.photo/a8.jpg',
+                ]
+                slideShow.src=images[index];
+                index++
+                if(index>images.length-1){
+                    index=0;
+                }
+            }
+            setInterval(slide,4000);
+        </script>
+        <div class="headlines">
+            <p><a href="https://www.neu.edu.vn/vi/dang-tuyen-sinh" >Đang Tuyển Sinh</a></p>
+            <ul class="news">   
+                <li><a>Thông báo tuyển sinh chương trình cử nhân Quốc tế Quản trị Kinh doanh giữa Đại học Kinh tế Quốc dân và Đại học Dongseo Hàn Quốc</a></li>
+                <li><a>Thông báo Tuyển sinh khoá 8 Chương trình liên kết đào tạo Cử nhân – Thạc sỹ Chuyên ngành Định phí Bảo hiểm và Tài chính (Actuary) Đại học Lyon1, Cộng hoà Pháp – Đại học Kinh tế Quốc dân</a></li>    
+                <li><a>Thông báo Xét tuyển kết hợp vào đại học chính quy năm 2021</a></li> 
+            </ul>
+
+        </div>
+        <div id="content">
+            <div class="content-item-left">
+                <a><img style="width: 100%;" src="./neu.photo/banner.jpg" alt="Introduce" /></a>
+                <span class='image-description'><a>Đoàn ACBSP tại Trường Đại học Kinh tế Quốc dân</a></span>
+            </div>
+            <div class="content-item-right">
+                <div class="sub-content">
+                    <a>
+                        <img src="./neu.photo/icon-sv-tuong-lai.png"/>
+                        <p>SV tương lai</p>
+                    </a>
+                    <a>
+                        <img src="./neu.photo/icon-Can-bo.png"/>
+                        <p>Cán bộ</p>
+                    </a>
+                    <a>
+                        <img src="./neu.photo/icon-SV.png"/>
+                        <p>Sinh Viên</p>
+                    </a>
+                    <a>
+                        <img src="./neu.photo/icon-cuu-sv.png"/>
+                        <p>Cựu SV</p>
+                    </a>
+                    <a>   
+                        <img src="./neu.photo/icon-Doi-tac.png"/>
+                        <p>Dối Tác</p>
+                    </a>
+                    <a> 
+                        <img src="./neu.photo/icon-congboquocte.png"/>
+                        <p>Công Bố Quóc Tế</p>
+                    </a>
+                </div>
+                <div class="sub-content">
+                    <ul class="news-feed" >
+                        <li><a>Bản Tin NEU</a></li>
+                        <li><a>Bản Tin Đơn Vị</a></li>
+                        <li><a>Sự Kiện</a></li>
+                    </ul>
+                    <div class="articles">
+                        <div>
+                            <div class="article-image"><img  src="./neu.photo/6fe13724-8fd3-4fea-afb5-f2614cf52f91.jpeg"></div>
+                            <div class="article-content">Lễ khai mạc Ngày hội Câu lạc bộ trường ĐH Kinh tế Quốc dân – NEU CLUBS’ DAY 2021</div>
+                        </div>
+                        <div>
+                            <div class="article-image"><img src="./neu.photo/anh2.jpg"/></div>
+                            <div class="article-content">
+                                Lễ phát động ngày hội đổi mới sáng tạo xã hội Techfest 2021 và ra mắt mô hình Shinhan Square Bridge Việt Nam</div>
+                        </div>
+                        <div>
+                            <div class="article-image"><img src="./neu.photo/anh3.jfif"/></div>
+                            <div class="article-content">PGS.TS Bùi Đức Thọ - Bí thư Đảng ủy, Chủ tịch Hội đồng trường thăm và làm việc với lãnh đạo UBND phường Đồng Tâm</div>
+                           
+                        </div>
+                        <div>
+                            <div class="article-image"><img src="./neu.photo/anh4.jfif" /></div>
+                            <div class="article-content">Chính thức khép lại Tuần sinh hoạt công dân đầu khóa K6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div id="connection"> 
+            <h2>LIên Kết</h2>
+            <div class="banner">
+                <a><img src="./neu.photo/banner1.png"/></a>
+                <a><img src="./neu.photo/banner2.png"/></a>
+                <a><img src="./neu.photo/banner3.png"/></a>
+                <a><img src="./neu.photo/banner4.png"/></a>
+                <a><img src="./neu.photo/banner5.jpg"/></a>
+            </div>
+        </div>
+        <footer>
+            <div class="contact">
+                <div> Copyright © 2016 - Trường Đại học Kinh tế Quốc dân. All Rights Reserved</div>
+                <div><i class="ti-home"></i>207 Giải Phóng, Đồng Tâm, Quận Hai Bà Trưng, Hà Nội, Vietnam</div>
+                <div>
+                    <i class="fa fa-phone"></i>(84)24.36.280.280
+                    <i class="ti-receipt"> </i>(84)24.38.695.992 
+                    <a href="  https://360.neu.edu.vn/">  https://360.neu.edu.vn/</a>
+                </div>
+            </div>
+            <div class="society">
+                <div>
+                    <img src="./neu.photo/qr.png"/>
+                    <a href="https://www.facebook.com/ktqdNEU/"><i class="ti-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCV24tBVKuhkSC1kd36FbvmA"><i class="ti-youtube"></i></a>
+                    <a href="https://twitter.com/DaiHocKTQD"><i class="ti-twitter"></i></a>
+                    <img src="./neu.photo/logobgdvadt.png"/>
+                </div>
+                <div>Designed and Developed By <span><img src="./neu.photo/logo_PSC_W.png"/></span></div>
+                <div>Mọi đóng góp xin gửi về:<a href="mailto:vuibinhyen200#gmail.com">My email</a></div>
+
+            </div>
+            
+
+
+        </footer>
+    </div>
+</body>
+
+
+
+
+
+
+
+</html>
